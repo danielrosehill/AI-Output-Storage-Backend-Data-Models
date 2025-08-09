@@ -1,0 +1,4 @@
+id,interface_name,interface_type,provider,version,capabilities,supported_modalities,is_active,api_endpoint,authentication_type,created_at,updated_at
+1,Windsurf,desktop_ide,Windsurf,1.0,"code_editing,file_management,terminal,browser",text,true,https://api.windsurf.com,api_key,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+2,ChatGPT Web,web_interface,OpenAI,4.0,"chat,file_upload,image_generation","text,voice,image",true,https://chat.openai.com,oauth,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+3,Claude Web,web_interface,Anthropic,3.0,"chat,document_analysis,code_generation","text,document",true,https://claude.ai,oauth,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z

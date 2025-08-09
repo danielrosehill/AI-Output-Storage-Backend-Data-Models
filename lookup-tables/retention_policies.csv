@@ -1,0 +1,2 @@
+id,policy_name,table_name,retention_days,archive_after_days,delete_after_days,is_active,created_by,policy_conditions,created_at,updated_at,description
+1,standard_outputs,outputs,365,180,730,true,daniel.rosehill,"{""user_type"": ""premium"", ""quality_score"": "">= 7""}",2025-08-09T11:09:33Z,2025-08-09T11:09:33Z,"Standard retention for high-quality outputs from premium users"

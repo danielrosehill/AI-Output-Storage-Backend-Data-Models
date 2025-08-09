@@ -1,0 +1,4 @@
+id,model_name,provider,version,language_support,accuracy_rating,cost_per_minute,max_file_size_mb,supported_formats,is_active,latency_ms,created_at,updated_at
+1,whisper-1,OpenAI,v1,multilingual,9.2,0.006,25,"mp3,mp4,wav,m4a,webm",true,2500,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+2,deepgram-nova-2,Deepgram,nova-2,multilingual,9.5,0.0043,null,"mp3,wav,flac,opus",true,300,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+3,google-speech-v1,Google,v1,100+,8.8,0.016,480,"wav,flac,amr",true,1200,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z

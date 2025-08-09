@@ -1,0 +1,5 @@
+id,policy_name,applies_to_table,retention_period_days,archive_after_days,delete_after_days,conditions_json,sensitivity_level_id,user_type,quality_threshold,is_active,created_by,created_at,updated_at
+1,premium_high_quality,outputs,1095,365,2190,"{""quality_score"": "">= 8"", ""user_subscription"": ""premium""}",2,premium,8.0,true,daniel.rosehill,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+2,standard_outputs,outputs,730,180,1095,"{""quality_score"": "">= 6""}",2,standard,6.0,true,daniel.rosehill,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+3,low_quality_cleanup,outputs,90,30,180,"{""quality_score"": ""< 5""}",1,any,5.0,true,daniel.rosehill,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+4,confidential_data,all,2555,730,null,"{""sensitivity_level"": "">= 3""}",3,any,null,true,daniel.rosehill,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z

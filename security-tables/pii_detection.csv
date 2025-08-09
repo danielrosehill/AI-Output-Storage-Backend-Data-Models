@@ -1,0 +1,2 @@
+id,content_id,content_type,pii_type,detected_value_hash,confidence_score,detection_method,masked_value,prompt_id,output_id,detected_at,reviewed_by,review_status,created_at,updated_at
+1,1,prompt,email,sha256_hash_of_email,0.95,regex_pattern,"***@***.com",1,null,2025-08-09T14:14:29Z,daniel.rosehill,approved,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z

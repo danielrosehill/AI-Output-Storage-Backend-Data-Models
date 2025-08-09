@@ -1,0 +1,2 @@
+id,username,email,display_name,user_type,is_active,timezone,language_preference,api_key_hash,total_prompts,total_outputs,created_at,updated_at,last_login,subscription_tier
+1,daniel.rosehill,daniel@danielrosehill.com,"Daniel Rosehill",admin,true,Asia/Jerusalem,en,sha256_hash_here,1247,1189,2025-08-01T10:00:00Z,2025-08-09T11:09:33Z,2025-08-09T11:09:33Z,premium

@@ -1,0 +1,2 @@
+id,workflow_name,workflow_id,description,is_active,trigger_type,execution_count,last_executed,created_by,tags,webhook_url,created_at,updated_at,version
+1,"AI Output Processor",wf_001,"Processes and stores AI outputs from various sources",true,webhook,127,2025-08-09T10:30:00Z,daniel.rosehill,"ai,storage,processing",https://n8n.danielrosehill.com/webhook/ai-output,2025-08-09T09:00:00Z,2025-08-09T11:09:33Z,1.2

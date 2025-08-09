@@ -1,0 +1,5 @@
+id,policy_name,sensitivity_level_id,sharing_scope,allowed_recipients,approval_required,expiry_days,conditions,created_by,is_active,created_at,updated_at
+1,public_sharing,1,external,"public,partners,customers",false,null,none,daniel.rosehill,true,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+2,internal_sharing,2,internal,"employees,contractors",false,90,"signed_nda",daniel.rosehill,true,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+3,confidential_sharing,3,restricted,"authorized_team_members",true,30,"manager_approval,audit_trail",daniel.rosehill,true,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+4,restricted_sharing,4,admin_only,"c_level,security_team",true,7,"ciso_approval,legal_review",daniel.rosehill,true,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z

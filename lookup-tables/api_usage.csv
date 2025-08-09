@@ -1,0 +1,2 @@
+id,user_id,assistant_id,model_name,provider,tokens_input,tokens_output,cost_usd,request_timestamp,response_time_ms,session_id,prompt_id,output_id,endpoint_used,created_at
+1,user_123,1,cascade-v1,windsurf,87,1247,0.0387,2025-08-09T11:09:33Z,2340,sess_456,1,1,https://api.windsurf.com/v1/chat,2025-08-09T11:10:15Z

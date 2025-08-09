@@ -1,0 +1,2 @@
+id,output_id,tracking_type,status,assigned_to,priority_level,due_date,completion_date,notes,tags,created_by,created_at,updated_at
+1,1,quality_assessment,pending,daniel.rosehill,medium,2025-08-12T11:09:33Z,null,"Needs human review for accuracy and completeness","review,qa,accuracy",system,2025-08-09T11:10:15Z,2025-08-09T11:10:15Z

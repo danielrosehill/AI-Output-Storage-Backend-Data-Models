@@ -1,0 +1,5 @@
+id,api_name,provider,parameter_name,parameter_type,default_value,min_value,max_value,description,is_required,created_at,updated_at
+1,chat_completions,OpenAI,temperature,float,0.7,0.0,2.0,"Controls randomness in output",false,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+2,chat_completions,OpenAI,max_tokens,integer,null,1,4096,"Maximum tokens in response",false,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+3,chat_completions,OpenAI,top_p,float,1.0,0.0,1.0,"Nucleus sampling parameter",false,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+4,transcriptions,OpenAI,language,string,null,null,null,"Input language (ISO-639-1)",false,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z

@@ -1,0 +1,2 @@
+id,output_id,prompt_id,assessor_type,assessor_id,accuracy_score,relevance_score,completeness_score,overall_score,human_review_required,review_notes,assessment_timestamp,created_at,updated_at
+1,1,1,human,daniel.rosehill,8.5,9.0,8.0,8.5,false,"Good comprehensive response, minor formatting improvements needed",2025-08-09T11:15:00Z,2025-08-09T11:15:00Z,2025-08-09T11:15:00Z

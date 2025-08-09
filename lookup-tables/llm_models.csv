@@ -1,0 +1,4 @@
+id,model_name,provider,model_family,version,context_window,max_output_tokens,cost_per_1k_input,cost_per_1k_output,capabilities,is_active,release_date,created_at,updated_at
+1,gpt-4-turbo,OpenAI,GPT-4,turbo,128000,4096,0.01,0.03,"text_generation,code,analysis,reasoning",true,2024-04-09,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+2,claude-3-sonnet,Anthropic,Claude-3,sonnet,200000,4096,0.003,0.015,"text_generation,analysis,reasoning,safety",true,2024-03-04,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z
+3,llama-3.2-8b,Meta,Llama,3.2-8b,8192,2048,0.0001,0.0001,"text_generation,local_deployment",true,2024-09-25,2025-08-09T14:13:35Z,2025-08-09T14:13:35Z

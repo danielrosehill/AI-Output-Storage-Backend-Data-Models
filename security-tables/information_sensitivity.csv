@@ -1,0 +1,5 @@
+id,sensitivity_level,classification,description,handling_requirements,retention_days,access_level,encryption_required,audit_required,created_at,updated_at
+1,public,public,"Information that can be freely shared",none,365,all,false,false,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+2,internal,internal,"Information for internal use only","access_control,logging",730,internal_users,true,true,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+3,confidential,confidential,"Sensitive business information","encryption,access_control,audit_trail",1095,authorized_users,true,true,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z
+4,restricted,restricted,"Highly sensitive information","multi_factor_auth,encryption,audit_trail,approval_required",2555,admin_only,true,true,2025-08-09T14:14:29Z,2025-08-09T14:14:29Z

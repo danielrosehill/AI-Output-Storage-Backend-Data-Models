@@ -1,0 +1,2 @@
+id,session_token,user_id,username,start_time,end_time,is_active,ip_address,user_agent,device_type,total_prompts,total_outputs,session_duration_minutes,created_at,updated_at
+1,sess_456,user_123,daniel.rosehill,2025-08-09T11:00:00Z,null,true,10.0.0.6,"Windsurf/1.0",desktop,15,14,null,2025-08-09T11:00:00Z,2025-08-09T11:09:33Z

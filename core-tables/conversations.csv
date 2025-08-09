@@ -1,0 +1,2 @@
+id,conversation_name,user_id,username,assistant_id,session_id,start_timestamp,end_timestamp,is_active,total_prompts,total_outputs,conversation_type,tags,created_at,updated_at
+1,"Daily Planning Session",user_123,daniel.rosehill,1,sess_456,2025-08-09T11:00:00Z,null,true,15,14,conversational,"planning,ai-backend,development",2025-08-09T11:00:00Z,2025-08-09T11:09:33Z
