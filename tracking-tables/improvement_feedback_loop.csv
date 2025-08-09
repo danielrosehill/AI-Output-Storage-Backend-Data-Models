@@ -1,0 +1,3 @@
+id,entity_type,entity_id,feedback_type,feedback_source,feedback_text,priority_level,status,assigned_to,implementation_date,impact_assessment,feedback_category,created_by,created_at,updated_at
+1,output,1,quality_improvement,human_review,"Response lacks specific timeline dates and dependencies",high,assigned,daniel.rosehill,2025-08-12T14:19:59Z,medium,completeness,daniel.rosehill,2025-08-09T14:19:59Z,2025-08-09T14:19:59Z
+2,agent,1,performance_enhancement,automated_analysis,"Error handling could be more robust for API timeouts",medium,in_progress,daniel.rosehill,2025-08-15T14:19:59Z,high,reliability,system,2025-08-09T14:19:59Z,2025-08-09T14:19:59Z

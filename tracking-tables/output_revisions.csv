@@ -1,0 +1,2 @@
+id,output_id,revision_number,revision_type,revised_by,revision_reason,changes_made,previous_version_hash,new_version_hash,improvement_score_delta,created_at,updated_at
+1,1,1,content_enhancement,daniel.rosehill,clarity_improvement,"Added specific timeline dates and milestone dependencies",sha256_prev_hash,sha256_new_hash,1.2,2025-08-09T14:19:59Z,2025-08-09T14:19:59Z

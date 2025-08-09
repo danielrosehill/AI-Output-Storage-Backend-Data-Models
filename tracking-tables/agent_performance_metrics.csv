@@ -1,0 +1,2 @@
+id,agent_id,metric_date,total_outputs,avg_quality_score,avg_processing_time_ms,success_rate,error_count,user_satisfaction_avg,cost_efficiency_score,improvement_trend,created_at,updated_at
+1,1,2025-08-09,14,8.7,2340,0.98,1,8.5,9.2,positive,2025-08-09T14:19:59Z,2025-08-09T14:19:59Z

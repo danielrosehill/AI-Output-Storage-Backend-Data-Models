@@ -19,10 +19,18 @@ Tables handling user interactions, prompts, sessions, and authentication.
 
 ## 📊 Data Model Diagrams
 
-### **OUTPUTS Domain**
+### **OUTPUTS Domain** - Comprehensive Output Lifecycle Management
 ```mermaid
 graph TD
-    O[outputs] --> OT[output_tracking]
+    O[outputs] --> OL[output_lifecycle]
+    O --> OR[output_revisions]
+    O --> OUA[output_usage_analytics]
+    O --> OKE[output_knowledge_extraction]
+    O --> OSR[output_semantic_relationships]
+    O --> OVA[output_value_assessment]
+    O --> OC[output_collections]
+    
+    O --> OT[output_tracking]
     O --> QA[quality_assessments]
     O --> BF[binary_file_data]
     O --> PII[pii_detection]
@@ -34,7 +42,13 @@ graph TD
     O --> RP[retention_policies]
     RP --> DRP[data_retention_policies]
     
+    IFL[improvement_feedback_loop] --> O
+    IFL --> AG[ai_agents]
+    
     style O fill:#e1f5fe
+    style OL fill:#e8f5e8
+    style OR fill:#e8f5e8
+    style OUA fill:#e8f5e8
     style QA fill:#f3e5f5
     style IS fill:#fff3e0
 ```
@@ -131,10 +145,19 @@ graph LR
 │   ├── users.csv
 │   ├── sessions.csv
 │   └── credentials.csv
-├── tracking-tables/       # Quality & task management
+├── tracking-tables/       # Comprehensive output lifecycle & improvement
 │   ├── output_tracking.csv
 │   ├── prompt_tracking.csv
-│   └── quality_assessments.csv
+│   ├── quality_assessments.csv
+│   ├── output_lifecycle.csv
+│   ├── output_revisions.csv
+│   ├── output_usage_analytics.csv
+│   ├── output_knowledge_extraction.csv
+│   ├── output_semantic_relationships.csv
+│   ├── output_value_assessment.csv
+│   ├── output_collections.csv
+│   ├── agent_performance_metrics.csv
+│   └── improvement_feedback_loop.csv
 ├── lookup-tables/         # Reference data
 │   ├── llm_models.csv
 │   ├── speech_to_text_models.csv

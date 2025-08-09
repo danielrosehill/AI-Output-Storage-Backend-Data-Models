@@ -1,0 +1,2 @@
+id,collection_name,collection_type,description,owner_id,output_ids,creation_criteria,auto_update_rules,quality_threshold,total_outputs,avg_quality_score,last_updated,is_active,created_by,created_at,updated_at
+1,"High-Value Project Outputs",curated,"Collection of outputs with high business and educational value",user_123,"1,5,12,18","{""business_value_score"": "">= 8"", ""reusability_score"": "">= 8""}","{""auto_add"": true, ""quality_threshold"": 8.0}",8.0,4,8.7,2025-08-09T14:19:59Z,true,daniel.rosehill,2025-08-09T14:19:59Z,2025-08-09T14:19:59Z

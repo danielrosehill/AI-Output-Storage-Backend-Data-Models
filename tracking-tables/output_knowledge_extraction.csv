@@ -1,0 +1,2 @@
+id,output_id,extracted_concepts,key_insights,actionable_items,knowledge_category,extraction_method,confidence_score,validated_by,validation_date,reusability_score,created_at,updated_at
+1,1,"project_management,timeline_planning,phase_structure","Breaking projects into phases improves clarity and execution","Define specific milestones and dependencies for each phase",project_management,automated_nlp,0.87,daniel.rosehill,2025-08-09T14:19:59Z,8.5,2025-08-09T14:19:59Z,2025-08-09T14:19:59Z

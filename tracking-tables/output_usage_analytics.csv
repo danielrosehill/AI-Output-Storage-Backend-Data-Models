@@ -1,0 +1,2 @@
+id,output_id,usage_type,used_by,usage_timestamp,usage_context,effectiveness_rating,user_feedback,follow_up_generated,reference_count,created_at,updated_at
+1,1,reference,daniel.rosehill,2025-08-09T12:30:00Z,project_planning,8.5,"Very helpful for structuring the project phases",true,3,2025-08-09T12:30:00Z,2025-08-09T14:19:59Z

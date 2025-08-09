@@ -1,0 +1,2 @@
+id,source_output_id,related_output_id,relationship_type,relationship_strength,semantic_similarity_score,topic_overlap,created_by_analysis,validation_status,created_at,updated_at
+1,1,null,foundational,null,null,null,automated,pending,2025-08-09T14:19:59Z,2025-08-09T14:19:59Z
