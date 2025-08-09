@@ -129,6 +129,70 @@ graph LR
 
 ---
 
+## 📑 Navigation Index
+
+### **Core Tables** - Primary Data Storage
+| Table | Description | View | Raw CSV |
+|-------|-------------|------|---------|
+| **Prompts** | User prompts with delivery methods & feedback | [📄](core-tables/prompts.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/core-tables/prompts.csv) |
+| **Outputs** | AI responses with quality metrics & revisions | [📄](core-tables/outputs.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/core-tables/outputs.csv) |
+| **Conversations** | Session grouping for prompts & outputs | [📄](core-tables/conversations.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/core-tables/conversations.csv) |
+| **Binary File Data** | File storage with encryption & metadata | [📄](core-tables/binary_file_data.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/core-tables/binary_file_data.csv) |
+
+### **System Tables** - AI Infrastructure Management
+| Table | Description | View | Raw CSV |
+|-------|-------------|------|---------|
+| **AI Assistants** | Assistant definitions with performance metrics | [📄](system-tables/ai_assistants.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/system-tables/ai_assistants.csv) |
+| **System Prompts** | System prompt versioning & management | [📄](system-tables/system_prompts.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/system-tables/system_prompts.csv) |
+| **AI Agents** | N8N workflow agents with feedback tracking | [📄](system-tables/ai_agents.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/system-tables/ai_agents.csv) |
+| **N8N Workflows** | Workflow execution & performance tracking | [📄](system-tables/n8n_workflows.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/system-tables/n8n_workflows.csv) |
+| **Users** | User profiles & subscription management | [📄](system-tables/users.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/system-tables/users.csv) |
+| **Sessions** | User interaction session tracking | [📄](system-tables/sessions.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/system-tables/sessions.csv) |
+| **Credentials** | API credential management | [📄](system-tables/credentials.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/system-tables/credentials.csv) |
+
+### **Tracking Tables** - Comprehensive Lifecycle Management
+| Table | Description | View | Raw CSV |
+|-------|-------------|------|---------|
+| **Output Lifecycle** | Stage-by-stage output progression | [📄](tracking-tables/output_lifecycle.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/output_lifecycle.csv) |
+| **Output Revisions** | Version control & improvement history | [📄](tracking-tables/output_revisions.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/output_revisions.csv) |
+| **Output Usage Analytics** | Real-world usage & effectiveness tracking | [📄](tracking-tables/output_usage_analytics.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/output_usage_analytics.csv) |
+| **Output Knowledge Extraction** | Insights & actionable items extraction | [📄](tracking-tables/output_knowledge_extraction.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/output_knowledge_extraction.csv) |
+| **Output Semantic Relationships** | Inter-output connection mapping | [📄](tracking-tables/output_semantic_relationships.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/output_semantic_relationships.csv) |
+| **Output Value Assessment** | Business & educational value scoring | [📄](tracking-tables/output_value_assessment.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/output_value_assessment.csv) |
+| **Output Collections** | Curated high-value output collections | [📄](tracking-tables/output_collections.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/output_collections.csv) |
+| **Agent Performance Metrics** | Daily agent performance tracking | [📄](tracking-tables/agent_performance_metrics.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/agent_performance_metrics.csv) |
+| **Improvement Feedback Loop** | Systematic improvement tracking | [📄](tracking-tables/improvement_feedback_loop.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/improvement_feedback_loop.csv) |
+| **Output Tracking** | Task management for outputs | [📄](tracking-tables/output_tracking.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/output_tracking.csv) |
+| **Prompt Tracking** | Task management for prompts | [📄](tracking-tables/prompt_tracking.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/prompt_tracking.csv) |
+| **Quality Assessments** | Output quality evaluation | [📄](tracking-tables/quality_assessments.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/tracking-tables/quality_assessments.csv) |
+
+### **Lookup Tables** - Reference Data & Configuration
+| Table | Description | View | Raw CSV |
+|-------|-------------|------|---------|
+| **LLM Models** | Model definitions with costs & capabilities | [📄](lookup-tables/llm_models.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/llm_models.csv) |
+| **Speech-to-Text Models** | STT models with accuracy ratings | [📄](lookup-tables/speech_to_text_models.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/speech_to_text_models.csv) |
+| **UI Interfaces** | Interface definitions & capabilities | [📄](lookup-tables/ui_interfaces.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/ui_interfaces.csv) |
+| **API Parameters** | API parameter specifications | [📄](lookup-tables/api_parameters.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/api_parameters.csv) |
+| **QA Validation Taxonomy** | Quality assessment criteria & weights | [📄](lookup-tables/qa_validation_taxonomy.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/qa_validation_taxonomy.csv) |
+| **Data Retention Policies** | Enhanced retention rules & conditions | [📄](lookup-tables/data_retention_policies.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/data_retention_policies.csv) |
+| **API Usage** | API call tracking & cost monitoring | [📄](lookup-tables/api_usage.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/api_usage.csv) |
+| **MCP Usage** | Model Context Protocol tool usage | [📄](lookup-tables/mcp_usage.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/mcp_usage.csv) |
+| **Retention Policies** | Basic retention policy definitions | [📄](lookup-tables/retention_policies.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/lookup-tables/retention_policies.csv) |
+
+### **Security Tables** - Compliance & Privacy Management
+| Table | Description | View | Raw CSV |
+|-------|-------------|------|---------|
+| **PII Detection** | Personal information tracking & masking | [📄](security-tables/pii_detection.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/security-tables/pii_detection.csv) |
+| **Information Sensitivity** | 4-tier sensitivity classification | [📄](security-tables/information_sensitivity.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/security-tables/information_sensitivity.csv) |
+| **Information Sharing Policy** | Sharing rules by sensitivity level | [📄](security-tables/information_sharing_policy.csv) | [📊](https://raw.githubusercontent.com/danielrosehill/AI-Output-Storage-Backend-Data-Models/main/security-tables/information_sharing_policy.csv) |
+
+### **Documentation**
+| Document | Description | View |
+|----------|-------------|------|
+| **Data Model Overview** | Comprehensive technical documentation | [📖](docs/data-model-overview.md) |
+
+---
+
 ## 📁 Directory Structure
 
 ```
