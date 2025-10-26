@@ -1,0 +1,216 @@
+{
+  "repository": "AI-Output-Storage-Backend-Data-Models",
+  "description": "Database schema for storing and managing AI outputs, prompts, and related metadata in N8N workflows",
+  "version": "1.0.0",
+  "generated": "2025-10-26T00:00:00Z",
+  "categories": {
+    "core-tables": {
+      "description": "Primary data storage (prompts, outputs, conversations, binary files)",
+      "tables": [
+        {
+          "name": "binary_file_data",
+          "path": "core-tables/binary_file_data.csv",
+          "description": "Storage for binary files attached to outputs (images, audio, etc.)"
+        },
+        {
+          "name": "conversations",
+          "path": "core-tables/conversations.csv",
+          "description": "Conversation threads containing multiple prompts and outputs"
+        },
+        {
+          "name": "outputs",
+          "path": "core-tables/outputs.csv",
+          "description": "AI-generated outputs with metadata and relationships"
+        },
+        {
+          "name": "prompts",
+          "path": "core-tables/prompts.csv",
+          "description": "User prompts submitted to AI assistants"
+        }
+      ]
+    },
+    "system-tables": {
+      "description": "AI infrastructure management (assistants, agents, workflows, users, sessions)",
+      "tables": [
+        {
+          "name": "ai_agents",
+          "path": "system-tables/ai_agents.csv",
+          "description": "AI agents that orchestrate multiple assistants and workflows"
+        },
+        {
+          "name": "ai_assistants",
+          "path": "system-tables/ai_assistants.csv",
+          "description": "AI assistant configurations with model and parameter settings"
+        },
+        {
+          "name": "credentials",
+          "path": "system-tables/credentials.csv",
+          "description": "API credentials for external AI services"
+        },
+        {
+          "name": "n8n_workflows",
+          "path": "system-tables/n8n_workflows.csv",
+          "description": "N8N workflow definitions for automation"
+        },
+        {
+          "name": "sessions",
+          "path": "system-tables/sessions.csv",
+          "description": "User sessions tracking conversation contexts"
+        },
+        {
+          "name": "system_prompts",
+          "path": "system-tables/system_prompts.csv",
+          "description": "System-level prompts and templates"
+        },
+        {
+          "name": "users",
+          "path": "system-tables/users.csv",
+          "description": "User accounts and profiles"
+        }
+      ]
+    },
+    "tracking-tables": {
+      "description": "Lifecycle management and analytics (quality, revisions, usage, feedback loops)",
+      "tables": [
+        {
+          "name": "agent_performance_metrics",
+          "path": "tracking-tables/agent_performance_metrics.csv",
+          "description": "Performance metrics for AI agents"
+        },
+        {
+          "name": "improvement_feedback_loop",
+          "path": "tracking-tables/improvement_feedback_loop.csv",
+          "description": "Feedback loop for continuous improvement of agents and assistants"
+        },
+        {
+          "name": "output_collections",
+          "path": "tracking-tables/output_collections.csv",
+          "description": "Curated collections of related outputs"
+        },
+        {
+          "name": "output_knowledge_extraction",
+          "path": "tracking-tables/output_knowledge_extraction.csv",
+          "description": "Extracted knowledge entities from outputs"
+        },
+        {
+          "name": "output_lifecycle",
+          "path": "tracking-tables/output_lifecycle.csv",
+          "description": "Lifecycle state transitions for outputs"
+        },
+        {
+          "name": "output_revisions",
+          "path": "tracking-tables/output_revisions.csv",
+          "description": "Version history and revisions of outputs"
+        },
+        {
+          "name": "output_semantic_relationships",
+          "path": "tracking-tables/output_semantic_relationships.csv",
+          "description": "Semantic relationships between outputs"
+        },
+        {
+          "name": "output_tracking",
+          "path": "tracking-tables/output_tracking.csv",
+          "description": "Tracking metadata for outputs (views, exports, shares)"
+        },
+        {
+          "name": "output_usage_analytics",
+          "path": "tracking-tables/output_usage_analytics.csv",
+          "description": "Usage analytics and access patterns for outputs"
+        },
+        {
+          "name": "output_value_assessment",
+          "path": "tracking-tables/output_value_assessment.csv",
+          "description": "Value assessments and ratings for outputs"
+        },
+        {
+          "name": "prompt_tracking",
+          "path": "tracking-tables/prompt_tracking.csv",
+          "description": "Tracking metadata for prompts"
+        },
+        {
+          "name": "quality_assessments",
+          "path": "tracking-tables/quality_assessments.csv",
+          "description": "Quality assessments and validation of outputs"
+        }
+      ]
+    },
+    "security-tables": {
+      "description": "Compliance and privacy (PII detection, information sensitivity, sharing policies)",
+      "tables": [
+        {
+          "name": "information_sensitivity",
+          "path": "security-tables/information_sensitivity.csv",
+          "description": "Sensitivity classification levels"
+        },
+        {
+          "name": "information_sharing_policy",
+          "path": "security-tables/information_sharing_policy.csv",
+          "description": "Policies for sharing information based on sensitivity"
+        },
+        {
+          "name": "pii_detection",
+          "path": "security-tables/pii_detection.csv",
+          "description": "PII detection results for prompts and outputs"
+        }
+      ]
+    },
+    "lookup-tables": {
+      "description": "Reference data (LLM models, STT models, API parameters, retention policies)",
+      "tables": [
+        {
+          "name": "api_parameters",
+          "path": "lookup-tables/api_parameters.csv",
+          "description": "API parameter configurations for different models"
+        },
+        {
+          "name": "api_usage",
+          "path": "lookup-tables/api_usage.csv",
+          "description": "API usage tracking and cost metrics"
+        },
+        {
+          "name": "data_retention_policies",
+          "path": "lookup-tables/data_retention_policies.csv",
+          "description": "Data retention policies based on sensitivity levels"
+        },
+        {
+          "name": "llm_models",
+          "path": "lookup-tables/llm_models.csv",
+          "description": "LLM model catalog with capabilities and costs"
+        },
+        {
+          "name": "mcp_usage",
+          "path": "lookup-tables/mcp_usage.csv",
+          "description": "MCP (Model Context Protocol) usage tracking"
+        },
+        {
+          "name": "qa_validation_taxonomy",
+          "path": "lookup-tables/qa_validation_taxonomy.csv",
+          "description": "Quality validation criteria taxonomy"
+        },
+        {
+          "name": "retention_policies",
+          "path": "lookup-tables/retention_policies.csv",
+          "description": "Retention policy definitions"
+        },
+        {
+          "name": "speech_to_text_models",
+          "path": "lookup-tables/speech_to_text_models.csv",
+          "description": "Speech-to-text model catalog"
+        },
+        {
+          "name": "ui_interfaces",
+          "path": "lookup-tables/ui_interfaces.csv",
+          "description": "UI interface definitions for different interaction modes"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_tables": 36,
+    "core_tables": 4,
+    "system_tables": 7,
+    "tracking_tables": 12,
+    "security_tables": 3,
+    "lookup_tables": 10
+  }
+}
